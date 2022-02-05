@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-       <marquee>This is basic example of marquee</marquee>
+       <marquee>Sample Next JS Project</marquee>
         <h1 className={styles.title}>
          Bala
         </h1>
