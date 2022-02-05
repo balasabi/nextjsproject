@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-         Bala
+         This is new project
         </h1>
         <p className={styles.description}>
           My project
