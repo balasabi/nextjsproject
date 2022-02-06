@@ -12,18 +12,18 @@ const Item = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(1),
   textAlign: 'center',
   color: theme.palette.text.secondary,
-  backgroundColor:"green"
+  backgroundColor: "#d3d3d3"
 }));
 
 class Home extends Component {
 
-   constructor (props) {
-     super(props)
-     this.state ={
-       data :["Bala","Senthil","Kumar","Raja","Mani","Vadivel","Shiva", "Murugan"]
-     }
-   }
-   
+  constructor(props) {
+    super(props)
+    this.state = {
+      data: ["Bala", "Senthil", "Kumar", "Raja", "Mani", "Vadivel", "Shiva", "Murugan"]
+    }
+  }
+
 
 
   render() {
@@ -36,19 +36,19 @@ class Home extends Component {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <main className={styles.main}>
-       <marquee>Sample Next JS Project</marquee>          
-      <Box sx={{ flexGrow: 1 }}>
-       <Grid container spacing={2}>
-        {this.state.data.map((item,index) =>
-         <Grid key ={index} item xs={6}>
-          <Item >{item}</Item>
-         </Grid>
-        )}
-       
-       
-      </Grid>
-    </Box>
-       
+          
+          <marquee style ={{margin:10}}> Next JS Project hosted via Vercel</marquee>
+
+          <Box sx={{ flexGrow: 1 }}>
+            <Grid container spacing={2}>
+              {this.state.data.map((item, index) =>
+                <Grid key={index} item xs={6}>
+                  <Item >{item}</Item>
+                </Grid>
+              )}
+            </Grid>
+          </Box>
+
         </main>
         <footer className={styles.footer}>
           <a
