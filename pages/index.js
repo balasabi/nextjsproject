@@ -36,11 +36,11 @@ class Home extends Component {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <main className={styles.main}>
-          <marquee>Sample Next JS Project</marquee>          
+       <marquee>Sample Next JS Project</marquee>          
       <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={2}>
-        {this.state.data.map((item) =>
-         <Grid item xs={6}>
+       <Grid container spacing={2}>
+        {this.state.data.map((item,index) =>
+         <Grid key ={index} item xs={6}>
           <Item >{item}</Item>
          </Grid>
         )}
