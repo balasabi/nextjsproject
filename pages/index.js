@@ -53,8 +53,8 @@ const columns = [
 const rows = [
   { id: 1, lastName: 'S', firstName: 'Balasubramani', age: 35 },
   { id: 2, lastName: 'S', firstName: 'Senthil', age: 42 },
-  { id: 3, lastName: 'Lannister', firstName: 'Jaime', age: 45 },
-  { id: 4, lastName: 'Stark', firstName: 'Arya', age: 16 },
+  { id: 3, lastName: 'M', firstName: 'Mani', age: 45 },
+  { id: 4, lastName: 'M', firstName: 'Purusoth', age: 16 },
   { id: 5, lastName: 'Targaryen', firstName: 'Daenerys', age: 60 },
   { id: 6, lastName: 'Melisandre', firstName: "Jon", age: 150 },
   { id: 7, lastName: 'Clifford', firstName: 'Ferrara', age: 44 },
