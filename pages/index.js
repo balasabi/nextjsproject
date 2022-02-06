@@ -102,7 +102,7 @@ class Home extends Component {
       <DataGrid
         rows={rows}
         columns={columns}
-        pageSize={8}
+        pageSize={5}
         rowsPerPageOptions={[8]}
         checkboxSelection
         disableSelectionOnClick
