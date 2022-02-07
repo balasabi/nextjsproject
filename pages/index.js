@@ -51,7 +51,7 @@ const columns = [
 ];
 
 const rows = [
-  { id: 1, lastName: 'S', firstName: 'Kumar', age: 35 },
+  { id: 1, lastName: 'SA', firstName: 'Kumar', age: 35 },
   { id: 2, lastName: 'S', firstName: 'Senthil', age: 42 },
   { id: 3, lastName: 'M', firstName: 'Mani', age: 45 },
   { id: 4, lastName: 'M', firstName: 'Purusoth', age: 16 },
