@@ -69,7 +69,7 @@ class Home extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      data: ["Bala", "Senthil", "Kumar", "Raja", "Mani", "Vadivel", "Shiva", "Murugan"]
+      data: ["Bala", "Senthil", "Kumar", "Raja", "Mani", "Vadivel", "Shiva", "Murugan", "Purusoth"]
     }
   }
 
